@@ -1,0 +1,6 @@
+C:\Users\Kavinz Milk\Documents\Visual Studio 2019\Projects\ASP Projects\MP3 Digital\MP3 Digital\bin\MP3 Digital.dll
+C:\Users\Kavinz Milk\Documents\Visual Studio 2019\Projects\ASP Projects\MP3 Digital\MP3 Digital\bin\MP3 Digital.pdb
+C:\Users\Kavinz Milk\Documents\Visual Studio 2019\Projects\ASP Projects\MP3 Digital\MP3 Digital\obj\Debug\MP3 Digital.dll
+C:\Users\Kavinz Milk\Documents\Visual Studio 2019\Projects\ASP Projects\MP3 Digital\MP3 Digital\obj\Debug\MP3 Digital.pdb
+C:\Users\Kavinz Milk\Documents\Visual Studio 2019\Projects\ASP Projects\MP3 Digital\MP3 Digital\obj\Debug\MP3 Digital.csprojAssemblyReference.cache
+C:\Users\Kavinz Milk\Documents\Visual Studio 2019\Projects\ASP Projects\MP3 Digital\MP3 Digital\bin\MP3 Digital.dll.config
