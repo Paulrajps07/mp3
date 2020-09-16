@@ -1,0 +1,433 @@
+﻿
+
+#load {
+    width: 100%;
+    height: 100vh;
+    background-color:white !important;
+    background: url('homepage photoes/131.gif') no-repeat center;
+    z-index: 99999;
+    position:fixed;
+}
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    width: 100%;}
+
+#desktop {
+    display: block;
+    text-align:center;
+}
+#mobile {
+    display:none;
+}
+#desktop div{
+    text-align: center;
+}
+body #desktop .bgv{
+    position:absolute;
+    right:0;
+    bottom:0;
+    z-index:-1;
+    min-height:100%;
+    min-width:100%;
+    position:fixed;
+}
+
+#desktop .icon {
+    text-align: center;
+    width:40%;
+    border-radius:30px;
+}
+#desktop h1{
+    color:white;
+    background:rgba(0,0,0,0.2);
+    width:auto;
+}
+#desktop ul {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 60%;
+    position: relative;
+}
+
+    #desktop ul li:hover {
+        z-index:1;
+    }
+
+    #desktop ul li {
+        position: relative;
+        text-align: center;
+        height: 40px;
+        float: left;
+        width: 140px;
+        list-style: none;
+        background-color: springgreen;
+        margin-left: 10px;
+        cursor: pointer;
+        display: block;
+        border-top-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        box-shadow: 5px 5px 10px;
+        transition-duration: 0.3s;
+        line-height: 40px;
+    }
+
+        #desktop ul li a {
+            color: black;
+            text-decoration: none;
+            font-size: large;
+            font-weight: bold;
+        }
+
+        #desktop ul li:hover, ul li:active {
+            background-color: cyan;
+            width: 150px;
+        }
+
+    #desktop ul ul {
+        display: none;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    #desktop ul li:hover > ul {
+        display: block;
+    }
+
+#desktop #TextBox1, #Button1 {
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    background-color: transparent;
+    border: 0px solid;
+    line-height: 30px;
+    font-size: medium;
+    font-weight: bold;
+}
+
+#desktop #container {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    color:white;
+    text-align:center;
+}
+    #desktop #container table{
+        width:90%;
+        text-align:center;
+    }
+        #desktop #container table tr td {
+            width: 30%;
+            text-align: center;
+            padding:20px;
+        }
+        #desktop #container table tr td img{
+            opacity:1;
+            width:200px;
+            height:auto;
+        }
+        #desktop #container h2 {
+            position: absolute;
+            color: black;
+            font-size: 45px;
+            max-width: 90%;
+        }
+#desktop img {
+    width: 100%;
+    opacity:0.7;
+    border-radius:70px;
+}
+#desktop #Label1 {
+    color: orangered;
+    float: right;
+}
+#desktop #footer {
+    width: 100%;
+    position: relative;
+    height: 200px;
+    background:rgba(0,0,0,0.3);
+}
+#desktop table {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 140px;
+}
+    #desktop table tr td {
+        width: 30%;
+        text-align: center;
+    }
+        #desktop table tr td a {
+            color: black;
+            text-decoration: none;
+            text-align: center;
+            font-size: small;
+            color:white;
+        }
+#desktop #contactTable {
+    width: 90%;
+    background-color: transparent;
+}
+    #desktop #contactTable tr td {
+        border-radius: 20px;
+        background:rgba(0,0,0,0.2);
+        color:white;
+    }
+#desktop #contactTables {
+    background-color: transparent;
+}
+    #desktop #contactTables tr td .tb {
+        height: 30px;
+        width: 400px;
+        border-radius: 10px;
+        border: 0px solid;
+        text-align: center;
+        line-height:30px;
+    }
+#desktop .conbtn {
+    width: 100px;
+    height: 40px;
+    border: 0px solid;
+    background-color: darkslategray;
+    text-align: center;
+    cursor: pointer;
+    font-weight: bold;
+    color:white;
+    border-radius: 5px;
+}
+#desktop .conbtn:hover{
+    background-color:tomato;
+}
+#desktop #v{
+    max-width:100%;
+    height:auto;
+}
+    #desktop #v h3{
+        text-align:center;
+    }
+    #desktop #v video{
+        width:50%;
+        margin:10px;
+        transition-duration:0.6s;
+        border-radius:20px;
+    }
+        #desktop #v video:hover, #desktop #v video:active {
+            width: 52%;
+        }
+#desktop #container #opact {
+    background:rgba(0,0,0,0.2);    
+    height: auto;
+    border-top-left-radius:60px;
+    border-bottom-right-radius:60px;
+}
+    #desktop #container #opact h3 {
+        font-family: 'Lucida Handwriting';
+        padding-top: 30px;
+    }
+#desktop #container #opact {
+    line-height:40px;
+}
+    #desktop #container #opact p{
+        padding-bottom:30px;
+        padding-left:30px;
+        padding-right:30px;
+    }
+        #desktop #container a img{
+            width:50px;            
+        }
+        #desktop a .ic{
+            width:40px;
+            height:40px;
+        }
+
+        @media only screen and (max-width:800px) {
+            #desktop{
+         display:none;
+     }
+    #mobile {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        text-align: center;
+    }
+        #mobile .bgv {
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            z-index: -1;
+            min-height: 100%;
+            min-width: 100%;
+            position: fixed;
+        }
+     #mobile #mob .icon{
+         width:83%;
+         height:60px;
+         text-align:center;
+         margin-top:0px;
+         border-radius:10px;    
+         opacity:0.8;
+     }
+        #mobile h5 {
+            text-align: center;
+            position: relative;
+            padding-bottom: 70px;
+        }
+        #mobile #mob{
+            height: auto;
+            line-height: 40px;
+            margin-top:-15px;
+        }
+            #mobile #mob h5 img {
+                width: 30px;
+                height: 30px;
+                float: left;
+                margin-left: 5px;
+                margin-top:4px;
+            }
+            #mobile a {
+                color: black;
+                text-decoration: none;
+                color: white;
+                margin-left:5px;
+            }
+        #mobile ul {
+            position: absolute;
+            width: 100px;
+            float: left;
+            list-style: none;
+            margin-left: -40px;
+            margin-top:60px;
+            display:none;
+        }
+        #mobile h5:hover > ul {
+            display:block;
+            background-color:aqua;
+        }
+     #mobile ul li{
+         height:30px;
+         width:100%;
+         text-align:center;
+         background-color:coral;
+         line-height:30px;
+     }
+     #mobile ul li:hover{
+         background-color:orange;
+         z-index:1;
+     }
+        #mobile ul li a{
+            background-color:transparent;
+            border:0px solid;
+            float:left;
+            margin-left:12px;
+        }
+    #mobile ul ul{
+        margin-left:60px;
+        margin-top:0px;
+        background-color:transparent;   
+        display:none;
+    }
+    #mobile ul li:hover > ul{
+        display:block;
+    }
+        #mobile #contains h7 {
+            position: absolute;
+            color: black;
+            max-width: 100%;
+            font-size:10px;
+        }
+        #mobile #contains img {
+            max-width: 100%;
+            margin-top: -20px;
+        }
+        #mobile #contain {
+            max-width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: darkseagreen;
+            height: auto;
+            border-radius: 10px;
+            line-height: 30px;
+        }
+            #mobile #contains a img {
+                width: 30px;
+                margin-bottom:40px;
+            }
+        #mobile #contain p{
+            margin-top:-20px;
+        }
+        #mobile .tbc{
+            margin:3px;
+            width:250px;
+            height:30px;
+            text-align:center;
+            border:0px solid;
+        }
+        #mobile #Button3{
+            margin:5px;
+            background-color:darkslategrey;
+            border:0px solid;
+            border-radius:5px;
+            color:white;
+            width:100px;
+            height:40px;
+            margin-bottom:100px;
+        }
+        #mobile #Button3:hover{
+            background-color:tomato;
+        }
+        #mobile #videocontains{
+            max-width:100%;
+            height:auto;
+        }
+        #mobile #videocontains h3{
+            text-align:center;
+            font-size:medium;
+        }
+        #mobile #videocontains video{
+            width:90%;
+        }
+        #mobile #contains #opact{
+            width:100%;
+            background:rgba(0,0,0,0.2);
+            margin-top:-10px;
+        }
+            #mobile #contains #opact h3 {
+                font-size: 10px;
+                font-family:'Segoe UI';
+                line-height:20px;
+                padding-top:10px;
+                padding-left:10px;
+                padding-right:10px;
+                color:azure;
+            }
+            #mobile #contains #opact p {
+                font-size: small;
+                padding-left: 10px;
+                padding-right: 10px;
+                line-height:20px;
+                color:gainsboro;
+            }
+            #mobile a .ic{
+                height:30px;
+                width:30px;
+            }
+            #mobile #contains table{
+                width:70%;
+                text-align:center;
+                margin-left:auto;
+                margin-right:auto;
+            }
+        #mobile #contains table tr{
+            text-align:center;
+        }
+        #mobile #contains table tr td img{
+            width:200px;
+            height:auto;
+            border-radius:20%;
+        }
+            #mobile #contains table tr td h3{
+                color:white;
+            }
+ }
